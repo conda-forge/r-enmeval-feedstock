@@ -28,16 +28,32 @@ requirements:
     - r-base
     - r-dismo
     - r-doparallel
+    - r-dosnow
+    - r-dplyr
     - r-foreach
+    - r-ggplot2
+    - r-glmnet
+    - r-magrittr
     - r-maxnet
     - r-raster
+    - r-sp
+    - r-testthat
+    - r-tidyr
   run:
     - r-base
     - r-dismo
     - r-doparallel
+    - r-dosnow
+    - r-dplyr
     - r-foreach
+    - r-ggplot2
+    - r-glmnet
+    - r-magrittr
     - r-maxnet
     - r-raster
+    - r-sp
+    - r-testthat
+    - r-tidyr
 
 test:
   commands:
