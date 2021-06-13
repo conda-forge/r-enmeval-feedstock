@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ENMeval_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ENMeval/ENMeval_{{ version }}.tar.gz
-  sha256: 2a2dad01f5ae4605513115d317834d673e88a6dee38f77d0b8febfa832a8c901
+  sha256: 2f7b7760ae70a45cd3c766aacf1e39f498de4f2e8c7b6dcde6b9adf6d8100250
 
 build:
   merge_build_host: true  # [win]
@@ -39,6 +39,7 @@ requirements:
     - r-sp
     - r-testthat
     - r-tidyr
+    - r-rangemodelmetadata
   run:
     - r-base
     - r-dismo
@@ -54,6 +55,7 @@ requirements:
     - r-sp
     - r-testthat
     - r-tidyr
+    - r-rangemodelmetadata
 
 test:
   commands:
