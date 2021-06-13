@@ -39,6 +39,7 @@ requirements:
     - r-sp
     - r-testthat
     - r-tidyr
+    - r-rangemodelmetadata
   run:
     - r-base
     - r-dismo
@@ -54,6 +55,7 @@ requirements:
     - r-sp
     - r-testthat
     - r-tidyr
+    - r-rangemodelmetadata
 
 test:
   commands:
