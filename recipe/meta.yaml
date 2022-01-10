@@ -1,4 +1,4 @@
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ENMeval_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ENMeval/ENMeval_{{ version }}.tar.gz
-  sha256: 4741c5da95f964aa336e37c51a8c1c3fc4bbaa62eede875b6bd50197a53ea500
+  sha256: 4b39173a8d9dc4f36d09509e0177abcf91b7b1b51dc219eebcb007a0fb8c3c41
 
 build:
   merge_build_host: true  # [win]
