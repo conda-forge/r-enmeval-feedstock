@@ -1,11 +1,11 @@
-About r-enmeval
-===============
+About r-enmeval-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-enmeval-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ENMeval
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-enmeval-feedstock/blob/main/LICENSE.txt)
 
 Summary: Automatically partitions data into evaluation bins, executes ecological niche models across a range of settings, and calculates a variety of evaluation statistics.  Current version only implements ENMs with Maxent (Phillips et al. 2006) or maxnet (Phillips et al. 2017).
 
